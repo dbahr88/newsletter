@@ -1,0 +1,18 @@
+img {
+	height: 200px;
+}
+
+body {
+	color: blue
+	height: 20px;
+	width: 30px;
+	font-family: "helvetica";
+}
+
+.header1 {
+	color: red;
+}
+
+.header2 {
+	color: blue;
+}
