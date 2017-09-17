@@ -1,18 +1,44 @@
 img {
-	height: 200px;
+	height: 100px;
+	width: 200px;
+	align-items: left;
 }
 
 body {
 	color: blue
-	height: 20px;
-	width: 30px;
 	font-family: "helvetica";
+	background-image: url("../Grungy-Paper-Texture-1.jpg");
+    background-repeat: repeat;
+    background-position: right top;
 }
 
 .header1 {
-	color: red;
+	text-align: center;
+	color: blue;
+	columns: 3;
 }
 
 .header2 {
 	color: blue;
+	text-align: right;
+}
+
+.title {
+	size: 500px;
+	height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    width: 10%;
+    background-color: red;
+    font-family: helvetica;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
