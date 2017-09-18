@@ -12,33 +12,64 @@ body {
     background-position: right top;
 }
 
+.img2 {
+	height: 200px;
+	width: 150px;
+	align-items: left;
+	float: left;
+}
+
 .header1 {
 	text-align: center;
-	color: blue;
+	color: black;
+	font-size: 12px;
+	font-family: sans-serif;
 	columns: 3;
 }
 
 .header2 {
-	color: blue;
+	color: black;
+	font-family: sans-serif;
 	text-align: right;
 }
 
 .title {
 	size: 500px;
 	height: 40px;
+	font-family: sans-serif;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    float: right;
-    right: 0;
-    bottom: 0;
     padding: 0;
-    width: 10%;
-    background-color: red;
-    font-family: helvetica;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
 }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #cc2424;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
